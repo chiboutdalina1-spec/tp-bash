@@ -1,0 +1,8 @@
+EXERCICE 4 - AUTOMATISATION AVEC CRON
+
+Commande Cron :
+0 2 * * * cd /mnt/c/Users/MSI/tp-bash && ./backup.sh >> /mnt/c/Users/MSI/tp-bash/backup-cron.log 2>&1
+
+Explication :
+Cette tâche exécute automatiquement le script backup.sh chaque jour à 02h00.
+Le résultat est enregistré dans backup-cron.log.
